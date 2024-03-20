@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+.orange{
+    color: #FF6F5E;
+}
+.strike{
+  text-decoration: line-through;
+}
+.navbar-nav .nav-item:hover .nav-link {
+    color: red; /* Change the color while hovering */
+}
+.navbar-nav .nav-link.active{
+  color: #dc3545;
+  text-decoration: underline;
+}
+ .navbar-text .nav-link{
+    color: #FF6F5E;
+  }
+  .navbar-text:hover .nav-link {
+    color: red;
+}
+.center-div {
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+ 
+}
